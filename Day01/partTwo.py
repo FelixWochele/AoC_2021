@@ -14,7 +14,7 @@ def main():
 
     for line in inputFile:
             line = int(line)
-
+            print("Hallo")
             list.append(int(line))
             
             if(len(list) > 3):
@@ -31,7 +31,7 @@ def main():
                 if(int(last4) < int(last3)):
                     print("Count: ", count)
                     count += 1 
-
+                    print("Test")
                 print("\n")
 
     print(count)
